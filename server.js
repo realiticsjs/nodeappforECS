@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('<h2 style="color:pink;">WELCOME TO solaconnect-backend-dev</h2> \n');
+  res.send('<h2 style="color:green;">WELCOME TO solaconnect-backend-dev</h2> \n');
 });
 
 app.listen(PORT, HOST);
